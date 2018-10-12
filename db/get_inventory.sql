@@ -1,0 +1,1 @@
+-- //Create a sql file in your db folder named 'get_inventory'. Copy the query you wrote in SQLTabs into the file and save it.

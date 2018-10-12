@@ -14,11 +14,11 @@ massive(process.env.CONNECTION_STRING).then(database => {
 })
 
 //endpoints
-// app.get('/api/inventory', Controller.getAll);
-// app.get('/api/inventory', Controller.getOne);
-// app.post('/api/inventory', Controller.create);
-// app.put('/api/inventory', Controller.update);
-// app.delete('/api/inventory', Controller.delete);
+app.get('/api/inventory', Controller.getAll);
+app.get('/api/inventory', Controller.getOne);
+app.post('/api/inventory', Controller.create);
+app.put('/api/inventory', Controller.update);
+app.delete('/api/inventory', Controller.delete);
 
 const Port = 4002;
 app.listen(Port, () => {
