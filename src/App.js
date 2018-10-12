@@ -13,8 +13,8 @@ class App extends Component {
         <Dashboard/>
         <Form/>
         <Header/>
-        
       </div>
+      
     );
   }
 }
